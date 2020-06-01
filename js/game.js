@@ -319,7 +319,7 @@ window.Game = (function () {
 
       this._deactivated = deactivated;
 
-      if (deactivated) {
+       if (deactivated) {
         this._removeGameListeners();
       } else {
         this._initializeGameListeners();
